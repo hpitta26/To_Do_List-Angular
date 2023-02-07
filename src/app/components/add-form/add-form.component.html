@@ -1,0 +1,17 @@
+
+
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="text">To Do</label>
+       <input type="text" name="text" id="text" [(ngModel)]="text" placeholder="Add To Do"/>
+    </div>
+
+    <div class="form-control">
+        <label for="time">Time</label>
+        <input type="text" name="time" id="time" [(ngModel)]="time" placeholder="Add Time" />
+        
+    </div>
+
+    <!-- {{time}} -->
+    <input type="submit" value="Add To Do" class="btn btn-block" />
+</form>

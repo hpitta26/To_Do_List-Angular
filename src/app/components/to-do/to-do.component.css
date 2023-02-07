@@ -1,0 +1,76 @@
+.todo {
+    background: #fff;
+    margin: 5px;
+    padding: 10px 20px;
+    /* cursor: pointer; */
+    border-radius: 0.5rem;
+    
+
+    align-content: center;
+
+}
+
+.triple-item-list {
+    /* background-color: antiquewhite; */
+    list-style: none;
+
+    
+    
+}
+
+.list-item-one {
+    /* background-color: aquamarine; */
+    display: inline-block;
+
+    vertical-align: middle;
+    
+}
+
+.list-item-two {
+    display: inline-block;
+    vertical-align: middle; 
+
+    margin-top: 0.25rem;
+
+    cursor: pointer;
+
+    float: right;
+}
+
+.remove-btn {
+    /* background-color: aqua; */
+    color: rgb(185, 189, 186);
+    font-size: 2rem;
+
+    margin-right: 1rem;
+}
+
+.star-btn {
+    /* background-color:blue; */
+    color: rgb(185, 189, 186);
+    font-size: 2rem;
+
+    stroke: black;
+    stroke-width: 2px;
+}
+
+.star {
+    color: rgb(244, 229, 69);
+}
+
+.header-wrapper {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    align-items: center;
+}
+
+.todo.star {
+    border-left: 5px solid green;
+}
+
+.todo h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

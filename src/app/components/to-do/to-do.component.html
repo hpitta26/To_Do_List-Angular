@@ -1,0 +1,30 @@
+
+
+<!-- <div [ngClass]="{star: todo.star}" class="todo" (dblclick)="onUpdate(todo)">
+    <div class="header-wrapper">
+        <h3> {{todo.text}} </h3>
+        <fa-icon (click)="onDelete(todo)" [ngStyle]="{'color':'red'}" [icon]="faTimes" />
+    </div>
+    
+    
+    <p>{{todo.time}}</p>
+</div> -->
+
+<div class="todo">
+
+    <ul class="triple-item-list">
+        <li class="list-item-one">
+            <div class="header-wrapper">
+                <h3> {{todo.text}} </h3>
+            </div>
+            <p>{{todo.time}}</p>
+        </li>
+        <li class="list-item-two">
+            <div class="btn-one">
+                <fa-icon class="remove-btn" (click)="onDelete(todo)" [icon]="faTrashCan" />
+                <fa-icon [ngClass]="{star: todo.star}" class="star-btn" (click)="onUpdate(todo)" [icon]="faStar" /> 
+            </div>
+        </li>
+    </ul>
+
+</div>
