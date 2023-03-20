@@ -7,16 +7,16 @@
       "star": true
     },
     {
-      "id": 4,
-      "text": "Doctors Appointment",
-      "time": "2:30pm",
-      "star": false
-    },
-    {
       "text": "School Homework",
       "time": "3:00pm",
       "star": false,
       "id": 5
+    },
+    {
+      "text": "Yoga Class",
+      "time": "8:30pm",
+      "star": false,
+      "id": 6
     }
   ]
 }
