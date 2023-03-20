@@ -20,3 +20,7 @@ Simple To Do List Application built using Angular
 - Make the List scrollable
 - Make it window-resizing friendly
 - Implement actual backend
+
+# Current Project
+
+<img src="https://github.com/hpitta26/ToDoList_App-Angular/blob/main/src/assets/images/To-Do-List.png" alt="To Do List Image" width=50%>
